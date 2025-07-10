@@ -1,0 +1,400 @@
+.px-80 {
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+}
+
+.download-button {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 15px;
+}
+
+
+/* Hero section's css */
+.py-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.hero-main-div {
+    display: flex;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.hero-img {
+    width:100% ;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.bold-title-part {
+    font-weight: bold;
+}
+
+.bold-strok-text {
+    color: white;
+    /* text-shadow: 1px 1px 1px black; */
+    -webkit-text-stroke: 1px black;
+    font-weight: bold;
+}
+
+.social-icons-container {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 3px;
+    display: flex;
+}
+
+.zeroth-icon {
+    background-color: black;
+}
+
+.p {
+   color: #71717A;
+   max-width: 470px;
+   font-size: 16px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.initia-section-height {
+    height: 78vh;
+    display: flex;
+    align-items: center;
+}
+.image-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 0px 80px;
+    column-gap: 60px;
+    row-gap: 60px;
+}
+.typing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200PXpx;
+    gap: 5px;
+}
+.background{
+    padding:30px 80px;
+    display: flex;
+    justify-content: center;
+}
+.background2{
+    background-color: rgb(0, 0, 0);
+    /* width:1440px; */
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    margin-top:150px;
+    margin-bottom: 100px;
+    height: 800px;
+    width:1280px;
+    padding-left:10px;
+    margin-left: 160px;
+    background-color: black;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.center{display: grid;
+    grid-template-rows: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1266px;
+    width: 1266px;
+
+}
+.background3{
+    width: 1440;
+    height: 150px;
+    background-color:black;
+    margin-top: 30px;
+    margin-left: 90px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 1px;
+    background-color:black;
+    
+}
+.background4{
+    padding-left: 10px;
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+
+.googlebox{
+    display: flex;
+    width: 50%;
+    gap: 10px;
+}
+.para{
+    padding: 20px;
+}
+.exp{
+    align-items: center;
+    justify-items: center;
+    color:white;
+}
+.date{
+    justify-content:end;
+}
+
+.youtubebox{
+     width: 1400;
+    height: 150px;
+    background-color:rgb(101, 20, 40);
+    margin-top: 30px;
+    margin-left: 90px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 1px;
+    background-color: hotpink;
+    display: flex;
+   
+}
+.youtubeicon{
+     padding-left: 10px;
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+.date2{
+    justify-content:end;
+
+}
+.left-section-youtube{
+    display: flex;
+    width: 50%;
+    gap: 10px;
+    
+}
+.paru{
+     padding: 20px;
+
+}
+.padd{
+    padding: 60px 80px;
+    background-color:white;
+    height: 692px;
+    /* width: 1440px; */
+    
+}
+.men1{
+    height: 572px;
+    width: 1280px;
+    background-color:white;
+    display: flex;
+}
+.men2{
+    background-color:white;
+    height: 525px;
+    width: 575px;
+}
+.menimg{
+    height: 525px;
+    width: 525px;
+}
+.menparagraph{
+    background-color:white;
+    width: 616px;
+    height: 424px;
+    gap: 20px;
+    padding: 50px 60px;
+    color: gray;
+}
+.lastmunn{
+    height: 1824px;
+    /* width: 1440px; */
+    background-color: black;
+    padding: 50px 60px;
+}
+.box2{
+    height: 100%;
+    background-color: black;
+    padding: 10PX;
+}
+.box3{
+    height: 96px;
+    /* width: 1216px; */
+    background-color:black;
+    padding-left: 630px;
+    color: white;
+   
+
+}
+.mainimg{
+    height:516px ;
+    /* width:1216px; */
+    background-color: black;
+    display: flex;
+    color: white;
+
+}
+.secondmainimg{
+     height:516px ;
+    /* width:1216px ; */
+    background-color: black;
+    display: flex;
+    color: white;
+
+
+}
+.thirdmainimg{
+     height:516px ;
+    /* width:1216px ; */
+    background-color:black;
+    display: flex;
+    color: white;
+}
+.sec6div1{
+    padding: 0px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec6div3{
+    padding: 40px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.sec6div2{
+    padding: 20px 0px;
+    justify-content: center;
+    display: flex;
+}
+.h1sec6{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.sec6div4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 40px 40px;
+    box-shadow: 0px 0px 10px 1px gray;
+}
+.line{
+    width: 120px;
+    height: 2px;
+    background-color: black;
+}
+.line2{
+    background-color: white;
+}
+.secdiv5{
+    align-items: center;
+}
+.content1{
+    text-align: center;
+}
+.content2{
+    background-color: black;
+    color: white;
+}
+.section7{
+    height: 604px;
+    background-color: white;
+    padding: 60px 80px;
+}
+.sec7div1{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px;
+}
+.sec7div2{
+    display: flex;
+   gap: 24px;
+   margin-top: 20px;
+}
+.h1sec7{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.h2sec7{
+    font-size: 30px;
+}
+.footerl{
+    background-color: black;
+    color: white;
+    padding: 24px 80px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 32px;
+}
+.enddiv{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin: 0px;
+}
+.left-section{
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+.f1{
+    height: 56px;
+    width: 500px;
+}
+.f2{
+     height: 56px;
+    width: 500px;
+}
+.f3{
+     height: 56px;
+    width: 500px;
+}
+.help{
+    height: 140px;
+    width: 500px;
+}
+    
